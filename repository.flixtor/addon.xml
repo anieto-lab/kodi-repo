@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.flixtor" name="Flixtor Repository" version="1.0.0" provider-name="Anthony Curare">
+<addon id="repository.flixtor" name="Flixtor Repository" version="1.0.1" provider-name="Anthony Curare">
     <extension point="xbmc.addon.repository" name="Flixtor Repository">
         <dir>
             <info compressed="false">https://anieto-lab.github.io/kodi-repo/addons.xml</info>
