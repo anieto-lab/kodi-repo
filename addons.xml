@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.13.0" provider-name="Anthony Curare">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.13.1" provider-name="Anthony Curare">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
