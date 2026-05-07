@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.21.0" provider-name="Anthony Curare">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.22.0" provider-name="Anthony Curare">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -34,6 +34,7 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
+        <news>v1.22.0 - Add "Recently Added" sort to Movies and TV Shows; rename "Latest Additions" to "Latest Releases" for clarity.</news>
     </extension>
 </addon>
 </addons>
