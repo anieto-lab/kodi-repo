@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.3" provider-name="Anthony Curare">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.4" provider-name="Anthony Curare">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -34,7 +34,8 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>v1.27.3 - Publishes the finalized family-friendly Fire TV navigation, playback, subtitle, recommendation-return, and exit-control improvements through the verified automatic-update channel.
+        <news>v1.27.4 - Restores native Back-to-close behavior in Arctic Horizon 2's in-window Options panel while preserving Flixtor root containment, removes the redundant Exit Flixtor confirmation, makes the one-time update notice reliable after repository updates, and adds an in-settings repository update check.
+v1.27.3 - Publishes the finalized family-friendly Fire TV navigation, playback, subtitle, recommendation-return, and exit-control improvements through the verified automatic-update channel.
 v1.27.1 - Corrected Fire TV's dialog sentinel handling so root Back containment and view-aware navigation run when Kodi reports no open dialog as ID 9999.
 v1.27.0 - Scoped Kodi's parent-folder preference to the Flixtor root only, restoring normal parent navigation everywhere else and on service shutdown. Portable Exit Flixtor and Exit Kodi actions now live in Flixtor's long-press menu.
 v1.26.9 - Made Fire TV home containment independent of skin container labels by tracking the active Flixtor route directly.
