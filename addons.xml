@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.26.1" provider-name="Anthony Curare">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.2" provider-name="Anthony Curare">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -34,7 +34,18 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>v1.26.1 - Fixed playback pausing to buffer ("paused for caching") shortly after starting a video: the daily cache cleanup could run during playback and starve the player. It now waits until nothing has played for a couple of minutes, and backs off immediately if you start watching.
+        <news>v1.27.2 - Finalized family-friendly Fire TV containment, portable long-press exit controls, scoped Kodi parent navigation, one-time dismissible official update announcements, and recommendation playback that returns to the title you selected.
+v1.27.1 - Corrected Fire TV's dialog sentinel handling so root Back containment and view-aware navigation run when Kodi reports no open dialog as ID 9999.
+v1.27.0 - Scoped Kodi's parent-folder preference to the Flixtor root only, restoring normal parent navigation everywhere else and on service shutdown. Portable Exit Flixtor and Exit Kodi actions now live in Flixtor's long-press menu.
+v1.26.9 - Made Fire TV home containment independent of skin container labels by tracking the active Flixtor route directly.
+v1.26.8 - Hardened the family-friendly home screen for Fire TV: Android Back escapes are returned to Flixtor Home and Kodi's redundant parent-folder card is hidden.
+v1.26.7 - Removed Fire TV browsing delays with view-aware controls: Down opens cast/recommendations from row views and Left from vertical list/wall views, while ordinary navigation stays native.
+v1.26.6 - Fire TV Down now opens playback controls without seeking, and Back stops the movie even when the playback controls are visible.
+v1.26.5 - Recommendations now pass the exact title/year to Flixtor and use it automatically for TMDb Helper playback, skipping the YouTube/UPnP player chooser.
+v1.26.4 - Corrected the Fire TV video-window keymap, fully replaced Kodi's appended queue/library context actions with a Flixtor-owned menu, and normalized legacy TV history titles so episode codes are not duplicated.
+v1.26.3 - Recently Watched now groups TV episodes by show and opens the show so you can continue naturally. Simplified Fire TV context menus to working Flixtor actions only. Added one-press Down navigation to cast/recommendations in Arctic Horizon 2 and corrected recommendation playback for exact Flixtor movie and episode matches.
+v1.26.2 - Restored browsing after Flixtor's login security update. Improved subtitle sync after pause/resume and seeking by using a stable local SRT track and refreshing its timing without overriding your on/off choice.
+v1.26.1 - Fixed playback pausing to buffer ("paused for caching") shortly after starting a video: the daily cache cleanup could run during playback and starve the player. It now waits until nothing has played for a couple of minutes, and backs off immediately if you start watching.
 v1.26.0 - Refreshed category and genre artwork now loads correctly after an update (previously Kodi could keep showing the old cached images).
 v1.25.0 - Tidier Continue Watching: one card per show, finished episodes drop off automatically, and the next episode shows as "Up Next" so you can keep going. Refreshed category and genre artwork.
 v1.24.0 - Much faster browsing (compressed transfers, pages cached across navigations, no redundant warm-up fetches). Continue Watching on the main menu, synopses and real backdrop art on every title, watched checkmarks and progress bars in lists, TV trailers, smarter breadcrumbs.
