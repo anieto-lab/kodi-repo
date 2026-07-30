@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.8" provider-name="anieto-lab">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.9" provider-name="anieto-lab">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -34,7 +34,8 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>v1.27.8 - Keeps Alexa search results active across playback: stopping a movie now returns to the same results without reopening the keyboard, and Back from those results returns to Flixtor Search instead of Kodi's Video add-ons screen.
+        <news>v1.27.9 - Restores Watch Trailer to Flixtor's long-press title menu across movies, shows, favorites, recommendations, Continue Watching, and Recently Watched. If YouTube is unavailable, Flixtor now offers Kodi's normal installation flow instead of hiding trailers.
+v1.27.8 - Keeps Alexa search results active across playback: stopping a movie now returns to the same results without reopening the keyboard, and Back from those results returns to Flixtor Search instead of Kodi's Video add-ons screen.
 v1.27.7 - Adds one-button Alexa voice-search setup and updates from Flixtor settings: release metadata is safety-checked, Downloader receives the exact signed companion URL automatically, and Fire OS keeps the required Install confirmation. Family-facing setup messages use plain language. The native keyboard now stays over the Flixtor Search page and submits with Next, Search, Done, or Enter. During playback, Back closes subtitle choices and controls one layer at a time, then stops only from the bare video.
 v1.27.5 - Adds an optional native Fire TV voice-search companion so Search &gt; New Search opens Amazon's system keyboard for remote typing or Alexa dictation, with local-only authenticated handoff, normal Back behavior, Kodi keyboard fallback, and no search terms in diagnostic logs.
 v1.27.4 - Restores native Back-to-close behavior in Arctic Horizon 2's in-window Options panel while preserving Flixtor root containment, removes the redundant Exit Flixtor confirmation, makes the one-time update notice reliable after repository updates, and adds an in-settings repository update check.
