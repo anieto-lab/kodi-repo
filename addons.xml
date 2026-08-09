@@ -18,9 +18,10 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.10" provider-name="anieto-lab">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.11" provider-name="anieto-lab">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.inputstreamhelper" version="0.6.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
@@ -34,7 +35,8 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>v1.27.10 - Makes playback more resilient when Wi-Fi or Flixtor's video delivery slows temporarily. Auto quality now lets Kodi adapt between the available stream qualities instead of repeatedly pausing a fixed-quality stream to refill its cache; explicit quality choices remain available as maximums.
+        <news>v1.27.11 - Offers a one-time, reversible Kodi playback optimization with clear consent and current-versus-recommended cache values. The same Optimize and Restore controls remain available under Maintenance, and InputStream Helper now provides Kodi's supported installation path for adaptive playback.
+v1.27.10 - Makes playback more resilient when Wi-Fi or Flixtor's video delivery slows temporarily. Auto quality now lets Kodi adapt between the available stream qualities instead of repeatedly pausing a fixed-quality stream to refill its cache; explicit quality choices remain available as maximums.
 v1.27.9 - Restores Watch Trailer to Flixtor's long-press title menu across movies, shows, favorites, recommendations, Continue Watching, and Recently Watched. If YouTube is unavailable, Flixtor now offers Kodi's normal installation flow instead of hiding trailers.
 v1.27.8 - Keeps Alexa search results active across playback: stopping a movie now returns to the same results without reopening the keyboard, and Back from those results returns to Flixtor Search instead of Kodi's Video add-ons screen.
 v1.27.7 - Adds one-button Alexa voice-search setup and updates from Flixtor settings: release metadata is safety-checked, Downloader receives the exact signed companion URL automatically, and Fire OS keeps the required Install confirmation. Family-facing setup messages use plain language. The native keyboard now stays over the Flixtor Search page and submits with Next, Search, Done, or Enter. During playback, Back closes subtitle choices and controls one layer at a time, then stops only from the bare video.
