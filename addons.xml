@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.11" provider-name="anieto-lab">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.12" provider-name="anieto-lab">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.6.1"/>
@@ -35,7 +35,8 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>v1.27.11 - Offers a one-time, reversible Kodi playback optimization with clear consent and current-versus-recommended cache values. The same Optimize and Restore controls remain available under Maintenance, and InputStream Helper now provides Kodi's supported installation path for adaptive playback.
+        <news>v1.27.12 - Restores accurate Alexa search results, genre browsing, and movie-only Recently Added listings after Flixtor's catalog update. Search text remains private in diagnostic logs, expired sessions recover cleanly, and updated catalog cards and lazy-loaded artwork are handled safely.
+v1.27.11 - Offers a one-time, reversible Kodi playback optimization with clear consent and current-versus-recommended cache values. The same Optimize and Restore controls remain available under Maintenance, and InputStream Helper now provides Kodi's supported installation path for adaptive playback.
 v1.27.10 - Makes playback more resilient when Wi-Fi or Flixtor's video delivery slows temporarily. Auto quality now lets Kodi adapt between the available stream qualities instead of repeatedly pausing a fixed-quality stream to refill its cache; explicit quality choices remain available as maximums.
 v1.27.9 - Restores Watch Trailer to Flixtor's long-press title menu across movies, shows, favorites, recommendations, Continue Watching, and Recently Watched. If YouTube is unavailable, Flixtor now offers Kodi's normal installation flow instead of hiding trailers.
 v1.27.8 - Keeps Alexa search results active across playback: stopping a movie now returns to the same results without reopening the keyboard, and Back from those results returns to Flixtor Search instead of Kodi's Video add-ons screen.
