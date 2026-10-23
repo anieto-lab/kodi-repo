@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.14" provider-name="anieto-lab">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.15" provider-name="anieto-lab">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.6.1"/>
@@ -35,7 +35,8 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>v1.27.14 - Repairs catalog pagination and recent feeds, makes voice failures recoverable, protects playback progress and favorites, adds library backup/restore and health checks, and bounds optional metadata loading.
+        <news>v1.27.15 - Restores the OMDb key created for public distribution, preserving automatic ratings setup and personal key overrides. Privacy checks allow only the exact approved public keys.
+v1.27.14 - Repairs catalog pagination and recent feeds, makes voice failures recoverable, protects playback progress and favorites, adds library backup/restore and health checks, and bounds optional metadata loading.
 v1.27.13 - Adds quiet Home-screen rows for the new Flixtor Horizon skin (Continue Watching, Trending, Popular Movies and TV, Favorites) that never open pop-ups or sign-in prompts, and lets Back leave Flixtor to the skin's Home screen under Flixtor Horizon. Arctic Horizon 2 behavior is unchanged.
 v1.27.12 - Restores accurate Alexa search results, genre browsing, and movie-only Recently Added listings after Flixtor's catalog update. Search text remains private in diagnostic logs, expired sessions recover cleanly, and updated catalog cards and lazy-loaded artwork are handled safely.
 v1.27.11 - Offers a one-time, reversible Kodi playback optimization with clear consent and current-versus-recommended cache values. The same Optimize and Restore controls remain available under Maintenance, and InputStream Helper now provides Kodi's supported installation path for adaptive playback.
