@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.19" provider-name="Flixtor">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.20" provider-name="Flixtor">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.6.1"/>
@@ -35,7 +35,8 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>v1.27.19 - Publishes Flixtor Horizon 1.0.7: backdrops wait until you stop scrolling, rows name the next row, progress bars and fitted long titles. No add-on changes.
+        <news>v1.27.20 - Episodes show their own synopsis, Flixtor Horizon shows IMDb and Rotten Tomatoes ratings, and Continue Watching and Watched episodes offer Go to Show, and every title menu lists the same actions in the same order as Title details, showing only the watched toggle that applies. TMDb Helper no longer logs folder errors every ten minutes. Publishes Flixtor Horizon 1.0.8.
+v1.27.19 - Publishes Flixtor Horizon 1.0.7: backdrops wait until you stop scrolling, rows name the next row, progress bars and fitted long titles. No add-on changes.
 v1.27.18 - Gives Horizon catalog rows their own directional navigation and exposes the previous and next catalog page to the skin.
 v1.27.17 - Supports Next Page in Horizon Home shelves, preserves concurrent catalog updates and keeps search results available if recent searches cannot be saved.
 v1.27.16 - Fixes Unicode cache loading on Windows and clarifies paging, empty search, Favorites, episode titles and subtitle menus. Horizon 1.0.3 unifies browsing with series artwork, readable descriptions and available ratings, restores Home layout and selection on Back, corrects mouse targets, and keeps Kodi utilities accessible from Flixtor-first settings. Alexa settings appear only on Android.
@@ -68,10 +69,10 @@ v1.24.0 - Much faster browsing (compressed transfers, pages cached across naviga
 v1.23.0 - Automatic daily cache cleanup, "View cache storage usage" report, and per-cache clear buttons in Settings &gt; Maintenance.</news>
     </extension>
 </addon>
-<addon id="skin.flixtor.horizon" name="Flixtor Horizon" provider-name="Flixtor Horizon" version="1.0.7">
+<addon id="skin.flixtor.horizon" name="Flixtor Horizon" provider-name="Flixtor Horizon" version="1.0.8">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
-        <import addon="plugin.video.flixtor" version="1.27.18" />
+        <import addon="plugin.video.flixtor" version="1.27.20" />
         <import addon="script.skinvariables" version="1.0.0" />
         <import addon="plugin.video.themoviedb.helper" version="5.1.11~nexus" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
@@ -82,9 +83,9 @@ v1.23.0 - Automatic daily cache cleanup, "View cache storage usage" report, and 
     <extension point="xbmc.addon.metadata">
         <summary lang="en">A fast, cinematic home for Flixtor.</summary>
         <description lang="en">Flixtor Horizon puts Flixtor first: Continue Watching, trending titles and favorites on a fast, remote-friendly home screen built for Fire TV. Based on Arctic Horizon 2 by jurialmunkey, used under CC BY-NC-SA 4.0.</description>
-        <news>v1.0.7 - Backdrops wait until you stop scrolling, the row header names the next row, in-progress titles show a progress bar, and long titles fit.
-v1.0.6 - Home shelves keep scrolling as more titles load, catalog pages share Home's tab bar, and the skin uses less of a Fire TV's processor. Browse against brighter film artwork, switch rows with the on-screen arrows, and play, resume or open seasons directly from the selected title.
-v1.0.5 - Read every main tab, keep the highlighted title in view while using its actions, and move between catalog pages from the footer.</news>
+        <news>v1.0.8 - Ratings show IMDb and Rotten Tomatoes only. Title details offers Go to Show for Continue Watching and Watched episodes, with its buttons in the same order as the long-press menu. A new golden-hour startup screen replaces the Kodi logo.
+v1.0.7 - Backdrops wait until you stop scrolling, the row header names the next row, in-progress titles show a progress bar, and long titles fit.
+v1.0.6 - Home shelves keep scrolling as more titles load, catalog pages share Home's tab bar, and the skin uses less of a Fire TV's processor. Browse against brighter film artwork, switch rows with the on-screen arrows, and play, resume or open seasons directly from the selected title.</news>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <assets>
