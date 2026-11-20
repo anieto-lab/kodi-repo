@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.20" provider-name="Flixtor">
+<addon id="plugin.video.flixtor" name="Flixtor" version="1.27.21" provider-name="Flixtor">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.6.1"/>
@@ -35,7 +35,8 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>v1.27.20 - Episodes show their own synopsis, Flixtor Horizon shows IMDb and Rotten Tomatoes ratings, and Continue Watching and Watched episodes offer Go to Show, and every title menu lists the same actions in the same order as Title details, showing only the watched toggle that applies. TMDb Helper no longer logs folder errors every ten minutes. Publishes Flixtor Horizon 1.0.8.
+        <news>v1.27.21 - Home shelves share requests, history rows load cached details together, and season navigation reuses episode information. Horizon uses one loading indicator when playback starts.
+v1.27.20 - Episodes show their own synopsis, Flixtor Horizon shows IMDb and Rotten Tomatoes ratings, and Continue Watching and Watched episodes offer Go to Show, and every title menu lists the same actions in the same order as Title details, showing only the watched toggle that applies. TMDb Helper no longer logs folder errors every ten minutes. Publishes Flixtor Horizon 1.0.8.
 v1.27.19 - Publishes Flixtor Horizon 1.0.7: backdrops wait until you stop scrolling, rows name the next row, progress bars and fitted long titles. No add-on changes.
 v1.27.18 - Gives Horizon catalog rows their own directional navigation and exposes the previous and next catalog page to the skin.
 v1.27.17 - Supports Next Page in Horizon Home shelves, preserves concurrent catalog updates and keeps search results available if recent searches cannot be saved.
